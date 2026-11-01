@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hetu Prajapati | Frontend Developer Intern</title>
+  <meta name="description" content="Portfolio of Hetu Prajapati, an engineering student building web projects with HTML, CSS, JavaScript and Python.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Hetu Prajapati</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+      <nav id="siteNav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-pressed="false">Dark mode</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="hero-role">Web Developer / Frontend Developer Intern</p>
+        <h1>Hetu Prajapati</h1>
+        <p class="hero-intro">I'm an engineering student who likes building practical websites. I work with HTML, CSS, JavaScript and Python, and I'm looking for an internship where I can keep learning by building real things.</p>
+        <div class="button-row">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-secondary resume-link" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">View resume</a>
+          <a class="btn btn-secondary resume-link" href="assets/resume.pdf" download>Download resume</a>
+          <a class="btn btn-secondary" href="mailto:hetu2286@gmail.com">Contact me</a>
+        </div>
+        <p class="hint" id="resumeHint" hidden>Resume is not added yet. See README.md, step "Add your resume".</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2>About Me</h2>
+        <p>Hi, I'm Hetu Prajapati, a Third-Year Computer Engineering student at Gandhinagar University with a passion for web development and creating meaningful digital experiences.</p>
+        <p>I enjoy turning ideas into responsive, interactive, and user-friendly websites. I have a good understanding of HTML, CSS, and JavaScript, and I'm currently learning React.js to strengthen my frontend development skills.</p>
+        <p>I love exploring new technologies, experimenting with creative ideas, and building projects that help me learn through practical experience.</p>
+        <p>I'm always looking for opportunities to improve my skills, gain real-world experience, and grow as a developer.</p>
+        <p>My goal is to become a skilled Full Stack Developer and build products that make a difference.</p>
+        <h3>Education</h3>
+        <p>Computer Engineering, Gandhinagar University. Fourth semester completed.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-grid">
+          <li class="card"><h3>HTML</h3><p>Structuring pages with semantic markup.</p></li>
+          <li class="card"><h3>CSS <span class="level">basic level</span></h3><p>Styling pages and building simple layouts.</p></li>
+          <li class="card"><h3>JavaScript</h3><p>Adding interactivity to websites I build.</p></li>
+          <li class="card"><h3>Python</h3><p>Program logic and calculations, used in The Cozy Table.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid" id="featuredProjects"></div>
+        <h3 class="subhead">More projects</h3>
+        <div class="project-grid" id="moreProjects"></div>
+      </div>
+    </section>
+    <section class="section" id="certifications">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul class="cert-grid">
+          <li class="card">
+            <h3>Front-end Web Development</h3>
+            <p class="meta">Reliance Foundation, February 2026, 240 hours</p>
+            <p>Completed a Front-end Web Development course through Reliance Foundation Skilling Academy under Skill India Digital, covering HTML, CSS, and practical web interface development.</p>
+          </li>
+          <li class="card">
+            <h3>Python Programming</h3>
+            <p class="meta">Digital India Programme, February 2026</p>
+            <p class="meta">Credential ID: RFSA000396023</p>
+            <p>Python programming fundamentals and introductory object-oriented programming.</p>
+          </li>
+          <li class="card">
+            <h3>Python for Data Science</h3>
+            <p class="meta">Reliance Foundation, July 2026</p>
+            <p>Foundational Python and data science concepts through Reliance Foundation Skilling Academy under Skill India Digital.</p>
+          </li>
+          <li class="card">
+            <h3>Generative AI Mastermind</h3>
+            <p class="meta">Outskill, March 2026</p>
+            <p>Generative AI tools and prompt engineering.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="volunteer">
+      <div class="container narrow">
+        <h2>Volunteer Experience</h2>
+        <div class="card">
+          <h3>Event Volunteer, TechXtreme 2026</h3>
+          <p class="meta">Gandhinagar University, April 2026</p>
+          <p>Helped with event logistics, schedule coordination, and crowd management during an inter-college technology festival. Developed experience in teamwork and event coordination.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-layout">
+        <div>
+          <h2>Contact</h2>
+          <p>I'm open to internships and entry-level web development roles. Send me a message or reach out directly.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:hetu2286@gmail.com" aria-label="Email Hetu at hetu2286@gmail.com">hetu2286@gmail.com</a></li>
+            <li><a href="https://github.com/hetuprajapati22" target="_blank" rel="noopener noreferrer" aria-label="Hetu on GitHub (opens in a new tab)">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/hetu-prajapati-389b93343/" target="_blank" rel="noopener noreferrer" aria-label="Hetu on LinkedIn (opens in a new tab)">LinkedIn</a></li>
+            <li hidden><a id="whatsappLink" href="#" target="_blank" rel="noopener noreferrer" aria-label="Message Hetu on WhatsApp (opens in a new tab)">WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="card" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="nameError">
+            <p class="error" id="nameError"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="emailError">
+            <p class="error" id="emailError"></p>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required aria-describedby="subjectError">
+            <p class="error" id="subjectError"></p>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required aria-describedby="messageError"></textarea>
+            <p class="error" id="messageError"></p>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Hetu Prajapati</p>
+      <ul>
+        <li><a href="mailto:hetu2286@gmail.com">Email</a></li>
+        <li><a href="https://github.com/hetuprajapati22" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/hetu-prajapati-389b93343/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
